@@ -21,11 +21,20 @@ class App extends Component {
     this.setState(novoEstado);
   }
 
+  removeNota(nota) {
+    const novoArrayDeNotas = [...this.state.notas];
+    novoArrayDeNotas.splice(nota.index, 1);
+    const novoEstado = {
+      notas: novoArrayDeNotas
+    }
+    this.setState(novoEstado);
+  }
+
   render() {
     return (
       <section className="App">
         <Formulario criarNotaParent={this.criarNota.bind(this)} />
-        <ListaDeNotas notas={this.state.notas} />
+        <ListaDeNotas notas={this.state.notas} removeNota={this.removeNota.bind(this)} />
       </section>
     );
   }
