@@ -5,4 +5,12 @@
 .App{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.conteudo-principal {
+    flex-grow: 3;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }

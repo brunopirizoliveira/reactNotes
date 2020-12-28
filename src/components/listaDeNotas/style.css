@@ -1,15 +1,6 @@
 .lista-de-notas {
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin: 10px;
-    list-style-type: none;
-}
-
-.lista-de-notas_item {
-    width: 100px;
-    height: 80px;
-    margin-right: 5px;
-    border: 1px solid gray;
-    border: cadetblue 1px solid;
-    border-radius: 5%;
 }

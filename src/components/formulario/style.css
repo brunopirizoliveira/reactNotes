@@ -2,6 +2,7 @@
     width: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin: 10px;
+    border-right: 1px solid darkgray;
+    padding: 10px;
 }

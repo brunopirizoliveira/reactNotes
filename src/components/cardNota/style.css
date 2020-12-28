@@ -1,6 +1,13 @@
 .card-nota {
     font-size: 11px;
-    padding: 5px;
+    padding: 2px;
+
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
+    border: 1px solid gray;
+    border: cadetblue 1px solid;
+    border-radius: 5%;
 }
 
 .card-nota_header {
